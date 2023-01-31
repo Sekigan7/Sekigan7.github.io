@@ -1,0 +1,67 @@
+* {
+  list-style-type: none;
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+}
+
+.logo {
+  width: 120rem;
+  margin-left: -20h;
+}
+.socialmedia{
+  width: 5rem;
+  margin-left: -20h;
+}
+.btn-cart img {
+  width: 50px;
+}
+
+.main {
+  
+  background-image: url("https://wallpaper.dog/large/11046622.jpg");
+  background-size: 100
+  rem;
+}
+
+.footer {
+  background-image: url("https://i.pinimg.com/originals/63/10/88/63108804a9b5e66331b284219a60b745.png");
+  
+  
+}
+.footer .footerSection li {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 0.8rem;
+}
+.footer .footerSection li h3 {
+  color: rgb(10, 250, 42);
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+}
+
+#myDIV {
+  height:100px;
+  background-image: url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1380&t=st=1673714232~exp=1673714832~hmac=9700c685980e3466402d6ad1e09a3e19491379df3a8ceed1f3b96c84aac8606e");
+  padding:30px;
+  text-shadow: 5px 5px 10px rgb(59, 3, 3);
+}
+.hide, .remove{
+  display: none;
+}
+
+#cargador {
+  background: #ffff url("https://art.pixilart.com/7badccc6206bf0f.gif") no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  animation-delay: 2s, 4ms;
+  }
+  
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripcion del titulo</title>
+    <link rel="shortcut icon" href="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+  </head>
+  <body class="body container-fluid p-0">
+
+    <!--     Aqui colocamos que si clickea en el logo vuelve a la pagina principal y tambien muestra el carrito de compras       -->
+    <header class="header row">
+      <div class="col-6 d-flex justify-content-start align-items-center pt-3 pe-1 pb-3">
+        <a href="./index.html"><img src="./img/logo/logo.gif" alt="gamestore logo" class="logo"></a>
+      </div>
+      <div class="col-6 d-flex justify-content-end align-items-center ps-1 pt-3 pe-5 pb-3">
+        <a href="./cart.html" id="cart_button" title="Mostrar Carrito"></a>
+      </div>
+    </header>
+
+    <!--                                                                 Aqui colocaremos por id nuestro juego                                     -->
+    <main class="main row">
+      <section class="col-12 mainSection">
+        <div id="game" class="row"></div>
+      </section>
+    </main>
+
+<!--                                                                  Volvemos a colocar el footer!                                   -->
+<footer class="footer row d-flex justify-content-evenly p-1">
+  <ul class="footerSection col">
+    <h5><a>Comunicate con nosotros al hacer click!</a></h5>
+  </ul>
+
+  <ul class="footerSection col">
+    <h3><a href="https://www.linkedin.com/in/tomasromeo/" rel="noopener" target="_blank"><img src="./img/Socialmedia/linkedinlogo.png" alt="linkedin logo" class="socialmedia"></a></h3>
+  </ul>
+
+  <ul class="footerSection col">
+    <h3><a href="https://github.com/Sekigan7" rel="noopener" target="_blank"><img src="./img/Socialmedia/githublogo.png" alt="github logo" class="socialmedia"></a></h3>
+  </ul>
+
+  <ul class="footerSection col">
+    <h4><a href="https://www.instagram.com/tomasromeo/" rel="noopener" target="_blank"><img src="./img/Socialmedia/instagramlogo.png" alt="instagram logo" class="socialmedia"></a></h4>
+      </ul>
+    </footer>
+
+<p><marquee>Copyright © 2023 All Rights Reserved by Tomas Romeo</p></marquee>
+    </footer>
+    <script src="./js/games.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main_game.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
+
